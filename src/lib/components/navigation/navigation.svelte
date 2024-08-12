@@ -4,18 +4,24 @@
 <style>
     .header {
         width: 100vw;
+        height: 70px;
         display: flex;
         align-items: center;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 
     .header-content-wrapper {
+        height: 70px;
+        background-color: var(--black);
         width: 100%;
         padding: 0px 40px;
+        position: fixed;
+        top: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        z-index: 9999;
     }
 
     .nav {
@@ -33,7 +39,6 @@
         transition-duration: 0.3s;
         text-decoration: none;
         font-weight: 500;
-        padding: 10px 20px;
         font-size: 20px;
     }
 
@@ -46,6 +51,13 @@
         color: var(--hover-white);
         border-bottom: unset;
     }
+
+    @media (max-width: 472px) {
+        .header-content-wrapper {
+            padding: 0px 20px;
+        }
+    }
+
 </style>
 
 <div class="header">

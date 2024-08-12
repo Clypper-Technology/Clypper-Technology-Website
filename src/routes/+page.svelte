@@ -33,10 +33,12 @@
         margin-bottom: 50px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         font-weight: 500;
         width: 100%;
         font-size: 58px;
         animation-delay: 1.5s;
+        align-items: center;
     }
 
     .third-line {
@@ -84,6 +86,44 @@
         margin-bottom: 80px;
     }
 
+    .second-line .spacer {
+        display: none;
+    }
+
+    @media (max-width: 472px) {
+        .title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .first-line, .second-line, .third-line {
+            font-size: 30px;
+            width: fit-content;
+            align-items: flex-start;
+        }
+
+        .spacer {
+            width: 100%;
+        }
+
+        .second-line .spacer {
+            display: block;
+        }
+
+        .third-line {
+            justify-content: flex-start;
+        }
+
+        .text-section {
+            margin-bottom: 10px;
+        }
+
+        .cta-section {
+            padding: unset;
+        }
+    }
+
+
 </style>
 
 <div class="main">
@@ -97,11 +137,12 @@
                 </div>
                 <div class="second-line fade-in">
                     <p>High-Performance</p>
+                    <div class="spacer"/>
                 </div>
                 <div class="third-line fade-in">
                     <div class="nested-third-line ">
                         <p class="">Software Solutions</p>
-                        <div class="spacer"/>
+                        <div class="spacer third-spacer"/>
                     </div>
                 </div>
             </div>

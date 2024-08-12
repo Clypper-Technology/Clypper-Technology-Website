@@ -196,3 +196,9 @@ section {
 .fade-in-box:nth-child(3) {
 	animation-delay: 1.5s;
 }
+
+@media (max-width: 472px)  {
+	section {
+		padding: 40px 20px;
+	}
+}
