@@ -52,12 +52,13 @@
     <div class="header-content-wrapper">
         <h2><a href="/">Clypper Technology</a></h2>
         <nav class="nav">
+            <!--
             <li class="nav-item">
                 <a href="/tax-preference/">Tax Preference</a>
             </li>
             <li class="nav-item">
                 <a href="/about/">About</a>
-            </li>
+            </li>-->
         </nav>
     </div>
 </div>

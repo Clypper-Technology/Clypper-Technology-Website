@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><!--
     <section class="light">
         <div class="max-width">
             <h3 class="bread-header medium-font bold fade-in-slow">Streamline, Optimize and automate your bussiness</h3>
@@ -117,5 +117,5 @@
                 commitment to high performance, ensuring that your business can scale seamlessly as it grows.</p>
             <button class="light bread-button margin-top-m fade-in-slow">See more</button>
         </div>
-    </section>
+    </section>-->
 </div>
