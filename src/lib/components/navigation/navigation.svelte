@@ -26,7 +26,6 @@
 
     .nav {
         display: flex;
-        margin: 10px;
         list-style-type: none;
     }
     .nav-item {
@@ -34,6 +33,15 @@
         display: flex;
         margin-right: 40px;
     }
+
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+
+    .nav-item a {
+        padding: 10px 20px;
+    }
+
     a {
         color: var(--whiteish);
         transition-duration: 0.3s;
@@ -52,6 +60,24 @@
         border-bottom: unset;
     }
 
+    @media (max-width: 1000px) {
+        .nav {
+            display:flex;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            z-index: 9999;
+            background-color: var(--cream-white);
+            width: 100%;
+            padding: 20px
+        }
+
+        .nav-item a {
+            color: var(--black)
+        }
+
+    }
+
     @media (max-width: 472px) {
         .header-content-wrapper {
             padding: 0px 20px;
@@ -64,13 +90,13 @@
     <div class="header-content-wrapper">
         <h2><a href="/">Clypper Technology</a></h2>
         <nav class="nav">
-            <!--
+
             <li class="nav-item">
                 <a href="/tax-preference/">Tax Preference</a>
             </li>
             <li class="nav-item">
                 <a href="/about/">About</a>
-            </li>-->
+            </li>
         </nav>
     </div>
 </div>
