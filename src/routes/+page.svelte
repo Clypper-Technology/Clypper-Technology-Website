@@ -20,16 +20,14 @@
     .text-section {
         padding: 40px 0px;
         margin-bottom: 40px;
-        opacity: 0; /* Start elements as invisible */
-        animation: fadeIn 1s ease forwards; /* Apply the animation */
     }
-
 
     .first-line {
         margin-bottom: 50px;
         color: #fff;
         font-size: 58px;
         width: 100%;
+        animation-delay: 0.5s;
     }
 
     .second-line {
@@ -39,6 +37,7 @@
         font-weight: 500;
         width: 100%;
         font-size: 58px;
+        animation-delay: 1s;
     }
 
     .third-line {
@@ -50,6 +49,7 @@
         text-decoration: underline;
         text-decoration: 3px solid var(--whiteish);
         line-height: 1.5em;
+        animation-delay: 1.5s;
     }
 
     .showcase {
@@ -60,6 +60,28 @@
     .bread-text {
         max-width: 800px;
         font-size: 18px;
+        animation-delay: 2.2s;
+    }
+
+    .spacer {
+        height: 5px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: var(--whiteish);
+    }
+
+    .nested-third-line {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .bread-header {
+        animation-delay: 2s;
+    }
+
+    .bread-button {
+        animation-delay: 2.4s;
     }
 
 </style>
@@ -68,24 +90,28 @@
     <section class="hero">
         <div class="cta-section">
             <div class="text-section">
-                <div class="first-line">
+                <div class="first-line fade-in">
                     <p class="">Scaleable</p>
+                    <div class="spacer"/>
                 </div>
-                <div class="second-line">
+                <div class="second-line fade-in">
                     <p>High-Performance</p>
                 </div>
-                <div class="third-line">
-                    <p class="">Software Solutions</p>
+                <div class="third-line fade-in">
+                    <div class="nested-third-line ">
+                        <p class="">Software Solutions</p>
+                        <div class="spacer"/>
+                    </div>
                 </div>
             </div>
             <div>
-                <p class="medium-font bold">Streamline, Optimize and automate your bussiness</p>
-                <p class="bread-text margin-top-m"> From web and desktop applications to robust, high-performance e-commerce platforms,
+                <h3 class="bread-header medium-font bold fade-in-slow">Streamline, Optimize and automate your bussiness</h3>
+                <p class="bread-text margin-top-m fade-in fade-in-slow"> From web and desktop applications to robust, high-performance e-commerce platforms,
                     we design and develop scalable solutions that are tailored to meet your specific business needs.
                     Our focus is on creating systems that not only simplify and automate complex processes but also
                     enhance your operational efficiency and drive measurable results. Our solutions are crafted with a
                     commitment to high performance, ensuring that your business can scale seamlessly as it grows.</p>
-                <button class="light margin-top-m">See more</button>
+                <button class="light bread-button margin-top-m fade-in-slow">See more</button>
             </div>
         </div>
     </section>

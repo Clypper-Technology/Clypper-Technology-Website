@@ -97,6 +97,10 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  color: var(--whiteish);
+}
+
 a {
   color: var(--whiteish);
 }
@@ -139,9 +143,14 @@ section {
   margin-top: 20px;
 }
 
-.fade-in-box {
+.fade-in {
   opacity: 0;
   animation: fadeIn 1s ease forwards;
+}
+
+.fade-in-slow {
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
 }
 
 /* Keyframes definition for fade-in effect */
