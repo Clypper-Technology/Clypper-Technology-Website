@@ -132,8 +132,24 @@ section {
 	max-width: 1080px;
 }
 
+.center-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .narrow {
 	max-width: 300px;
+}
+
+.dark-link {
+	color: var(--black);
+	transition-duration: 0.3s;
+}
+
+.dark-link:hover {
+	color: var(--hover-black);
 }
 
 .light p,

@@ -121,6 +121,10 @@
         .cta-section {
             padding: unset;
         }
+
+        .hero {
+            justify-content: left;
+        }
     }
 
 

@@ -1,9 +1,11 @@
 <script>
 	import '../app.css';
-	import Navigtaion from '$lib/components/navigation/navigation.svelte';
-	const prerender = true;
+	import Navigation from '$lib/components/navigation/navigation.svelte';
+	import Footer from '$lib/components/footer/footer.svelte';
 </script>
 
-<Navigtaion></Navigtaion>
+<Navigation/>
 
 <slot></slot>
+
+<Footer/>
