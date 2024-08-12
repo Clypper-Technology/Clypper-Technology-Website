@@ -160,7 +160,7 @@
                 Our focus is on creating systems that not only simplify and automate complex processes but also
                 enhance your operational efficiency and drive measurable results. Our solutions are crafted with a
                 commitment to high performance, ensuring that your business can scale seamlessly as it grows.</p>
-            <button class="light bread-button margin-top-m fade-in-slow">See more</button>
+            <button class="dark-button bread-button margin-top-m fade-in-slow">See more</button>
         </div>
     </section>
 </div>

@@ -94,10 +94,12 @@ h1 {
 h2 {
 	color: var(--whiteish);
 	font-size: 24px;
+	margin-bottom: 20px;
 }
 
 h3 {
 	color: var(--whiteish);
+	margin-bottom: 20px;
 }
 
 a {
@@ -143,6 +145,18 @@ section {
 	max-width: 300px;
 }
 
+
+.light-link {
+	transition-duration: 0.3s;
+	text-decoration: underline;
+	color: var(--whiteish);
+}
+
+.light-link:hover {
+	color: #9ca3af;
+	text-decoration: unset;
+}
+
 .dark-link {
 	color: var(--black);
 	transition-duration: 0.3s;
@@ -150,6 +164,17 @@ section {
 
 .dark-link:hover {
 	color: var(--hover-black);
+}
+
+button .dark-button {
+	transition-duration: 0.3s;
+	background-color: var(--black);
+	color: var(--whiteish);
+}
+
+button .dark-button:hover {
+	background-color: var(--hover-black);
+	color: var(--hover-white);
 }
 
 .light p,
