@@ -106,6 +106,8 @@
                 </div>
             </div>
         </div>
+        <h2>We are currently building...</h2>
+        <h3>Check back later!</h3>
     </section><!--
     <section class="light">
         <div class="max-width">
