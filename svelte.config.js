@@ -16,5 +16,5 @@ const config = {
 		})
 	}
 };
-
+export const prerender = true;
 export default config;

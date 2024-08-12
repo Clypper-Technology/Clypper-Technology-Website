@@ -3,192 +3,196 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --black: #252525;
-    --whiteish: #dadada;
-    --cream-white: #e7e7e7;
-    --hover-white: rgba(255, 255, 255, 0.7);
-    --hover-black: rgba(255, 255, 255, 0.05);
+	:root {
+		--black: #252525;
+		--whiteish: #dadada;
+		--cream-white: #e7e7e7;
+		--hover-white: rgba(255, 255, 255, 0.7);
+		--hover-black: rgba(255, 255, 255, 0.05);
 
-    --background: 0 0% 100%;
-    --foreground: 20 14.3% 4.1%;
+		--background: 0 0% 100%;
+		--foreground: 20 14.3% 4.1%;
 
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
+		--muted: 60 4.8% 95.9%;
+		--muted-foreground: 25 5.3% 44.7%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 20 14.3% 4.1%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
+		--card: 0 0% 100%;
+		--card-foreground: 20 14.3% 4.1%;
 
-    --border: 20 5.9% 90%;
-    --input: 20 5.9% 90%;
+		--border: 20 5.9% 90%;
+		--input: 20 5.9% 90%;
 
-    --primary: 24 9.8% 10%;
-    --primary-foreground: 60 9.1% 97.8%;
+		--primary: 24 9.8% 10%;
+		--primary-foreground: 60 9.1% 97.8%;
 
-    --secondary: 60 4.8% 95.9%;
-    --secondary-foreground: 24 9.8% 10%;
+		--secondary: 60 4.8% 95.9%;
+		--secondary-foreground: 24 9.8% 10%;
 
-    --accent: 60 4.8% 95.9%;
-    --accent-foreground: 24 9.8% 10%;
+		--accent: 60 4.8% 95.9%;
+		--accent-foreground: 24 9.8% 10%;
 
-    --destructive: 0 72.2% 50.6%;
-    --destructive-foreground: 60 9.1% 97.8%;
+		--destructive: 0 72.2% 50.6%;
+		--destructive-foreground: 60 9.1% 97.8%;
 
-    --ring: 20 14.3% 4.1%;
+		--ring: 20 14.3% 4.1%;
 
-    --radius: 0.5rem;
-  }
+		--radius: 0.5rem;
+	}
 
-  .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 60 9.1% 97.8%;
+	.dark {
+		--background: 20 14.3% 4.1%;
+		--foreground: 60 9.1% 97.8%;
 
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
+		--muted: 12 6.5% 15.1%;
+		--muted-foreground: 24 5.4% 63.9%;
 
-    --popover: 20 14.3% 4.1%;
-    --popover-foreground: 60 9.1% 97.8%;
+		--popover: 20 14.3% 4.1%;
+		--popover-foreground: 60 9.1% 97.8%;
 
-    --card: 20 14.3% 4.1%;
-    --card-foreground: 60 9.1% 97.8%;
+		--card: 20 14.3% 4.1%;
+		--card-foreground: 60 9.1% 97.8%;
 
-    --border: 12 6.5% 15.1%;
-    --input: 12 6.5% 15.1%;
+		--border: 12 6.5% 15.1%;
+		--input: 12 6.5% 15.1%;
 
-    --primary: 60 9.1% 97.8%;
-    --primary-foreground: 24 9.8% 10%;
+		--primary: 60 9.1% 97.8%;
+		--primary-foreground: 24 9.8% 10%;
 
-    --secondary: 12 6.5% 15.1%;
-    --secondary-foreground: 60 9.1% 97.8%;
+		--secondary: 12 6.5% 15.1%;
+		--secondary-foreground: 60 9.1% 97.8%;
 
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 60 9.1% 97.8%;
+		--accent: 12 6.5% 15.1%;
+		--accent-foreground: 60 9.1% 97.8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 60 9.1% 97.8%;
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 60 9.1% 97.8%;
 
-    --ring: 24 5.7% 82.9%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+		--ring: 24 5.7% 82.9%;
+	}
 }
 
 body {
-  background-color: var(--black);
-  letter-spacing: 0.14em;
+	background-color: var(--black);
+	letter-spacing: 0.14em;
 }
 
 h1 {
-  color: var(--whiteish);
-  font-size: 48px;
+	color: var(--whiteish);
+	font-size: 48px;
 }
 
 h2 {
-  color: var(--whiteish);
-  font-size: 24px;
+	color: var(--whiteish);
+	font-size: 24px;
 }
 
 h3 {
-  color: var(--whiteish);
+	color: var(--whiteish);
 }
 
 a {
-  color: var(--whiteish);
+	color: var(--whiteish);
 }
 
 p {
-  color: var(--whiteish);
-  margin-bottom: 20px;
+	color: var(--whiteish);
+	margin-bottom: 20px;
 }
 
 section {
-  padding: 80px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	padding: 80px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .light-card {
-  background-color: var(--cream-white);
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+	background-color: var(--cream-white);
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow:
+		rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+		rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+		rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .max-width {
-  width: 100%;
-  max-width: 1080px
+	width: 100%;
+	max-width: 1080px;
 }
 
 .narrow {
-  max-width: 300px;
+	max-width: 300px;
 }
 
-.light p, .light h3, .
-
-light h1 {
-  color: var(--black);
+.light p,
+.light h3,
+. light h1 {
+	color: var(--black);
 }
 
 .light {
-  background-color: var(--whiteish);
-  color: var(--black);
-  border-radius: 8px;
+	background-color: var(--whiteish);
+	color: var(--black);
+	border-radius: 8px;
 }
 
 .main {
-  width: 100%;
+	width: 100%;
 }
 
 .medium-font {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .margin-top-m {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .fade-in {
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
+	opacity: 0;
+	animation: fadeIn 1s ease forwards;
 }
 
 .fade-in-slow {
-  opacity: 0;
-  animation: fadeIn 3s ease forwards;
+	opacity: 0;
+	animation: fadeIn 3s ease forwards;
 }
 
 /* Keyframes definition for fade-in effect */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .drop-shadow {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .parallelogram {
-  clip-path: polygon(0 0, 0 100%, 40% 100%, 0 73%, 0 0, 76% 0, 73% 0, 64% 0, 100% 23%, 100% 0);
-  background-color: var(--whiteish);
+	clip-path: polygon(0 0, 0 100%, 40% 100%, 0 73%, 0 0, 76% 0, 73% 0, 64% 0, 100% 23%, 100% 0);
+	background-color: var(--whiteish);
 }
 
 /* Adding staggered animation delays */
-.fade-in-box:nth-child(1) { animation-delay: 0.5s; }
-.fade-in-box:nth-child(2) { animation-delay: 1s; }
-.fade-in-box:nth-child(3) { animation-delay: 1.5s; }
+.fade-in-box:nth-child(1) {
+	animation-delay: 0.5s;
+}
+.fade-in-box:nth-child(2) {
+	animation-delay: 1s;
+}
+.fade-in-box:nth-child(3) {
+	animation-delay: 1.5s;
+}

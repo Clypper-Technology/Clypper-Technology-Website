@@ -50,7 +50,7 @@
         line-height: 1.5em;
         animation-delay: 2s;
     }
-    
+
     .bread-text {
         max-width: 800px;
         font-size: 18px;

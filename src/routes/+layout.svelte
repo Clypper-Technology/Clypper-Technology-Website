@@ -1,9 +1,9 @@
 <script>
-    import "../app.css";
-    import Navigtaion from '$lib/components/ui/navigation/navigation.svelte';
-    const prerender = true
+	import '../app.css';
+	import Navigtaion from '$lib/components/navigation/navigation.svelte';
+	const prerender = true;
 </script>
 
-<Navigtaion />
+<Navigtaion></Navigtaion>
 
 <slot></slot>
