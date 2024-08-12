@@ -77,6 +77,12 @@
 body {
 	background-color: var(--black);
 	letter-spacing: 0.14em;
+	background-color: var(--black);
+	letter-spacing: 0.14em;
+	max-width: 100%;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
 }
 
 h1 {
@@ -87,10 +93,12 @@ h1 {
 h2 {
 	color: var(--whiteish);
 	font-size: 24px;
+	margin-bottom: 20px;
 }
 
 h3 {
 	color: var(--whiteish);
+	margin-bottom: 20px;
 }
 
 a {
