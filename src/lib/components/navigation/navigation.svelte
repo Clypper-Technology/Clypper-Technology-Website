@@ -69,7 +69,9 @@
             z-index: 9999;
             background-color: var(--cream-white);
             width: 100%;
-            padding: 20px
+            padding: 20px;
+            justify-content: center;
+            box-shadow: var(--box-shadow)
         }
 
         .nav-item a {
@@ -81,6 +83,10 @@
     @media (max-width: 472px) {
         .header-content-wrapper {
             padding: 0px 20px;
+        }
+
+        .nav-item a {
+            font-size: 16px;
         }
     }
 
