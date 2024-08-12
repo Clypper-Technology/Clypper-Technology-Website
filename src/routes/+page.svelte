@@ -149,6 +149,7 @@
         </div>
         <h2>We are currently building...</h2>
         <h3>Check back later!</h3>
+        <h2>You can reach us at: Contact@clyppertechnology.com</h2>
     </section><!--
     <section class="light">
         <div class="max-width">
