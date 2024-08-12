@@ -27,7 +27,7 @@
         color: #fff;
         font-size: 58px;
         width: 100%;
-        animation-delay: 0.5s;
+        animation-delay: 1s;
     }
 
     .second-line {
@@ -37,7 +37,7 @@
         font-weight: 500;
         width: 100%;
         font-size: 58px;
-        animation-delay: 1s;
+        animation-delay: 1.5s;
     }
 
     .third-line {
@@ -49,12 +49,7 @@
         text-decoration: underline;
         text-decoration: 3px solid var(--whiteish);
         line-height: 1.5em;
-        animation-delay: 1.5s;
-    }
-
-    .showcase {
-        background-color: var(--whiteish);
-        height: 100vh;
+        animation-delay: 2s;
     }
     
     .bread-text {
@@ -84,11 +79,18 @@
         animation-delay: 2.4s;
     }
 
+    .title {
+        font-size: 68px;
+        font-weight: 700;
+        margin-bottom: 80px;
+    }
+
 </style>
 
 <div class="main">
     <section class="hero">
         <div class="cta-section">
+            <h1 class="title fade-in">Clypper Technology</h1>
             <div class="text-section">
                 <div class="first-line fade-in">
                     <p class="">Scaleable</p>
@@ -104,17 +106,17 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <h3 class="bread-header medium-font bold fade-in-slow">Streamline, Optimize and automate your bussiness</h3>
-                <p class="bread-text margin-top-m fade-in fade-in-slow"> From web and desktop applications to robust, high-performance e-commerce platforms,
-                    we design and develop scalable solutions that are tailored to meet your specific business needs.
-                    Our focus is on creating systems that not only simplify and automate complex processes but also
-                    enhance your operational efficiency and drive measurable results. Our solutions are crafted with a
-                    commitment to high performance, ensuring that your business can scale seamlessly as it grows.</p>
-                <button class="light bread-button margin-top-m fade-in-slow">See more</button>
-            </div>
         </div>
     </section>
-
-    <section class="showcase"></section>
+    <section class="light">
+        <div class="max-width">
+            <h3 class="bread-header medium-font bold fade-in-slow">Streamline, Optimize and automate your bussiness</h3>
+            <p class="bread-text margin-top-m fade-in fade-in-slow"> From web and desktop applications to robust, high-performance e-commerce platforms,
+                we design and develop scalable solutions that are tailored to meet your specific business needs.
+                Our focus is on creating systems that not only simplify and automate complex processes but also
+                enhance your operational efficiency and drive measurable results. Our solutions are crafted with a
+                commitment to high performance, ensuring that your business can scale seamlessly as it grows.</p>
+            <button class="light bread-button margin-top-m fade-in-slow">See more</button>
+        </div>
+    </section>
 </div>

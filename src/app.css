@@ -6,6 +6,7 @@
   :root {
     --black: #252525;
     --whiteish: #dadada;
+    --cream-white: #e7e7e7;
     --hover-white: rgba(255, 255, 255, 0.7);
     --hover-black: rgba(255, 255, 255, 0.05);
 
@@ -113,18 +114,35 @@ p {
 section {
   padding: 80px 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.light-card {
+  background-color: var(--cream-white);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.max-width {
+  width: 100%;
+  max-width: 1080px
 }
 
 .narrow {
   max-width: 300px;
 }
 
+.light p, .light h3, .light h1 {
+  color: var(--black);
+}
+
 .light {
   background-color: var(--whiteish);
   color: var(--black);
   border-radius: 8px;
-  padding: 10px 20px;
 }
 
 .main {
@@ -157,6 +175,15 @@ section {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+.drop-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.parallelogram {
+  clip-path: polygon(0 0, 0 100%, 40% 100%, 0 73%, 0 0, 76% 0, 73% 0, 64% 0, 100% 23%, 100% 0);
+  background-color: var(--whiteish);
 }
 
 /* Adding staggered animation delays */
