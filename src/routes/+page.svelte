@@ -121,12 +121,12 @@
         .cta-section {
             padding: unset;
         }
-        .hidden-link {
-            position: fixed;
-            bottom: -300px;
-        }
     }
 
+    .hidden-link {
+        position: fixed;
+        bottom: -1000px;
+    }
 
 </style>
 
