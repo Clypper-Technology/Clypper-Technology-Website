@@ -121,6 +121,10 @@
         .cta-section {
             padding: unset;
         }
+        .hidden-link {
+            position: fixed;
+            bottom: -300px;
+        }
     }
 
 
@@ -149,7 +153,9 @@
         </div>
         <h2>We are currently building...</h2>
         <h3>You can reach us at: Contact@clyppertechnology.com</h3>
-    </section><!--
+    </section>
+    <a class="hidden-link" href="/tax-preference"></a>
+    <!--
     <section class="light">
         <div class="max-width">
             <h3 class="bread-header medium-font bold fade-in-slow">Streamline, Optimize and automate your bussiness</h3>
